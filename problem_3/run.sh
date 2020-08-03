@@ -1,4 +1,5 @@
 #!/bin/sh
 
-./pi > problem_3.txt
+mv ../pi.c $(pwd)
 
+gcc pi.c -o problem_3.txt
